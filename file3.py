@@ -13,5 +13,7 @@ for i in range (m):
     List_2.append(int (input("Enter an element of the second set")))
 List_1 = set(List_1)
 List_2 = set(List_2)
-print(List_1.intersection(List_2))
-                  
+List_3 = (List_1.intersection(List_2))
+print(sorted(List_3))
+
+
